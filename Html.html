@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>WordleProject</title>
+    <script src="Interaction.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+
+
+<body>
+
+
+<section class="Introduction">
+    <div id="PageTitle">Wordle</div>
+    <hr>
+</section>
+
+<br>
+<br>
+
+<table id="LettersTable" >
+    <tr class="tile">
+        <td id="r1c1"></td>
+        <td id="r1c2"></td>
+        <td id="r1c3"></td>
+        <td id="r1c4"></td>
+        <td id="r1c5"></td>
+    </tr>
+    <tr class="tile">
+        <td id="r2c1"></td>
+        <td id="r2c2"></td>
+        <td id="r2c3"></td>
+        <td id="r2c4"></td>
+        <td id="r2c5"></td>
+    </tr>
+    <tr class="tile">S
+        <td id="r3c1"></td>
+        <td id="r3c2"></td>
+        <td id="r3c3"></td>
+        <td id="r3c4"></td>
+        <td id="r3c5"></td>
+    </tr>
+    <tr class="tile">
+        <td id="r4c1"></td>
+        <td id="r4c2"></td>
+        <td id="r4c3"></td>
+        <td id="r4c4"></td>
+        <td id="r4c5"></td>
+    </tr>
+    <tr class="tile">
+        <td id="r5c1"></td>
+        <td id="r5c2"></td>
+        <td id="r5c3"></td>
+        <td id="r5c4"></td>
+        <td id="r5c5"></td>
+    </tr>
+    <tr class="tile">
+        <td id="r6c1"></td>
+        <td id="r6c2"></td>
+        <td id="r6c3"></td>
+        <td id="r6c4"></td>
+        <td id="r6c5"></td>
+    </tr>
+</table>
+
+
+<br>
+
+
+<div>
+    <button id="e" onclick="typeLetter('e')">ק</button>
+    <button id="r" onclick="typeLetter('r')">ר</button>
+    <button id="t" onclick="typeLetter('t')">א</button>
+    <button id="y" onclick="typeLetter('y')">ט</button>
+    <button id="u" onclick="typeLetter('u')">ו</button>
+    <button id="i" onclick="typeLetter('i')">ן</button>
+    <button id="o" onclick="typeLetter('o')">ם</button>
+    <button id="p" onclick="typeLetter('p')">פ</button>
+</div>
+<div>
+    <button id="a" onclick="typeLetter('a')">ש</button>
+    <button id="s" onclick="typeLetter('s')">ד</button>
+    <button id="d" onclick="typeLetter('d')">ג</button>
+    <button id="f" onclick="typeLetter('f')">כ</button>
+    <button id="g" onclick="typeLetter('g')">ע</button>
+    <button id="h" onclick="typeLetter('h')">י</button>
+    <button id="j" onclick="typeLetter('j')">ח</button>
+    <button id="k" onclick="typeLetter('k')">ל</button>
+    <button id="l" onclick="typeLetter('l')">ך</button>
+    <button id="pp" onclick="typeLetter('pp')">ף</button>
+    <!--    different ף-->
+</div>
+<div>
+    <button id="enter" class="long" onclick="typeLetter('enter')">אשר</button>
+    <button id="z" onclick="typeLetter('z')">ז</button>
+    <button id="x" onclick="typeLetter('x')">ס</button>
+    <button id="c" onclick="typeLetter('c')">ב</button>
+    <button id="v" onclick="typeLetter('v')">ה</button>
+    <button id="b" onclick="typeLetter('b')">נ</button>
+    <button id="n" onclick="typeLetter('n')">מ</button>
+    <button id="m" onclick="typeLetter('m')">צ</button>
+    <button id="tt" onclick="typeLetter('tt')">ת</button>
+    <!--    different ת-->
+    <button id="mm" onclick="typeLetter('mm')">ץ</button>
+    <!--    different ץ-->
+    <button id="delete" class="long" onclick="typeLetter('delete')">מחק</button>
+</div>
+
+</body>
+</html>

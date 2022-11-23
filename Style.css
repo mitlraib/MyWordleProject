@@ -1,0 +1,51 @@
+
+div {
+    text-align: center;
+    font-family: fantasy;
+    font-size: xx-large;
+
+}
+table, th, td {
+    border: 2px solid darkgray;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 6px;
+    color: black;
+}
+
+table {
+    width: 350px;
+    height: 400px;
+    border: 0;
+    table-layout: fixed;
+
+}
+
+.tile {
+    height: 60px;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Alef;
+    font-weight: bold;
+
+}
+
+button {
+    background-color: #d3d6da;
+    color: black;
+    border: 0;
+    width: 40px;
+    height: 50px;
+    border-radius: 4px;
+    font-size: large;
+    /*margin: 1px;*/
+    margin-top: 10px;
+}
+
+.long {
+    width: 60px;
+}
+
+#PageTitle {
+    color: black;
+}
